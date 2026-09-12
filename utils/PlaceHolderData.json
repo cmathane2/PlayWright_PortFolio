@@ -1,0 +1,8 @@
+[
+    {
+        "username": "test_user",
+        "password": "secure_password_123",
+        "baseUrl": "https://example.com",
+        "timeout": 30000
+    }
+]

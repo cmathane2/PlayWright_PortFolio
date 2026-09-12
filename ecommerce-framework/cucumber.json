@@ -1,0 +1,18 @@
+{
+    "default": {
+        "requireModule": ["ts-node/register"],
+        "require": [
+            "step-definitions/**/*.js"
+        ],
+        "paths": [
+            "features/"
+        ],
+        "format": [
+            "@cucumber/pretty-formatter"
+        ],
+        "formatOptions": {
+            "snippetInterface": "async-await"
+        },
+        "publishQuiet": true
+    }
+}
