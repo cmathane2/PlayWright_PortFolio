@@ -1,0 +1,729 @@
+- generic [ref=f9e2]:
+  - navigation "Shortcuts menu" [ref=f9e3]:
+    - heading "Skip to" [level=2] [ref=f9e4]
+    - list "Skip to" [ref=f9e5]:
+      - listitem [ref=f9e6]:
+        - link "main content" [ref=f9e7] [cursor=pointer]:
+          - /url: "#skippedLink"
+          - text: Main content
+    - separator [aria-hidden] [ref=f9e8]
+    - heading "Keyboard shortcuts" [level=2] [ref=f9e9]
+    - list "Keyboard shortcuts" [ref=f9e10]:
+      - listitem [ref=f9e11]:
+        - link "Search, alt, forward slash" [ref=f9e12] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f9e13]:
+            - generic [ref=f9e14]: Search
+            - generic [ref=f9e15]:
+              - generic [ref=f9e16]: alt
+              - generic [ref=f9e17]: +
+              - generic [ref=f9e18]: /
+      - listitem [ref=f9e19]:
+        - link "Cart, shift, alt, c" [ref=f9e20] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f9e21]:
+            - generic [ref=f9e22]: Cart
+            - generic [ref=f9e23]:
+              - generic [ref=f9e24]: shift
+              - generic [ref=f9e25]: +
+              - generic [ref=f9e26]: alt
+              - generic [ref=f9e27]: +
+              - generic [ref=f9e28]: C
+      - listitem [ref=f9e29]:
+        - link "Home, shift, alt, h" [ref=f9e30] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f9e31]:
+            - generic [ref=f9e32]: Home
+            - generic [ref=f9e33]:
+              - generic [ref=f9e34]: shift
+              - generic [ref=f9e35]: +
+              - generic [ref=f9e36]: alt
+              - generic [ref=f9e37]: +
+              - generic [ref=f9e38]: H
+      - listitem [ref=f9e39]:
+        - link "Your orders, shift, alt, o" [ref=f9e40] [cursor=pointer]:
+          - /url: javascript:void(0)
+          - generic [aria-hidden] [ref=f9e41]:
+            - generic [ref=f9e42]: Orders
+            - generic [ref=f9e43]:
+              - generic [ref=f9e44]: shift
+              - generic [ref=f9e45]: +
+              - generic [ref=f9e46]: alt
+              - generic [ref=f9e47]: +
+              - generic [ref=f9e48]: O
+      - listitem [ref=f9e49]:
+        - button "Show/hide shortcuts, shift, alt, z" [ref=f9e50] [cursor=pointer]:
+          - generic [aria-hidden] [ref=f9e51]:
+            - generic [ref=f9e52]: Show/Hide shortcuts
+            - generic [ref=f9e53]:
+              - generic [ref=f9e54]: shift
+              - generic [ref=f9e55]: +
+              - generic [ref=f9e56]: alt
+              - generic [ref=f9e57]: +
+              - generic [ref=f9e58]: Z
+    - generic [ref=f9e59]: To move between items, use your keyboard's up or down arrows.
+  - banner [ref=f9e65]:
+    - navigation "Primary" [ref=f9e66]:
+      - generic [ref=f9e67]:
+        - generic [ref=f9e68]:
+          - link "Amazon.in" [ref=f9e70] [cursor=pointer]:
+            - /url: /ref=nav_logo
+            - generic: .in
+          - button "Delivering to Akot 444101 Update location" [ref=f9e73] [cursor=pointer]:
+            - generic [ref=f9e75]:
+              - generic [ref=f9e76]: Delivering to Akot 444101
+              - generic [ref=f9e77]: Update location
+        - search [ref=f9e80]:
+          - generic [ref=f9e83]:
+            - generic [ref=f9e84]: All
+            - combobox "Select the department you want to search in" [ref=f9e87] [cursor=pointer]:
+              - option "All Categories" [selected]
+              - option "Alexa Skills"
+              - option "Amazon Devices"
+              - option "Amazon Fashion"
+              - option "Amazon Fresh"
+              - option "Amazon Pharmacy"
+              - option "Appliances"
+              - option "Apps & Games"
+              - option "Audible Audiobooks"
+              - option "Baby"
+              - option "Beauty"
+              - option "Books"
+              - option "Car & Motorbike"
+              - option "Clothing & Accessories"
+              - option "Collectibles"
+              - option "Computers & Accessories"
+              - option "Deals"
+              - option "Electronics"
+              - option "Furniture"
+              - option "Garden & Outdoors"
+              - option "Gift Cards"
+              - option "Grocery & Gourmet Foods"
+              - option "Health & Personal Care"
+              - option "Home & Kitchen"
+              - option "Industrial & Scientific"
+              - option "Jewellery"
+              - option "Kindle Store"
+              - option "Luggage & Bags"
+              - option "Luxury Beauty"
+              - option "Movies & TV Shows"
+              - option "MP3 Music"
+              - option "Music"
+              - option "Musical Instruments"
+              - option "Office Products"
+              - option "Pet Supplies"
+              - option "Prime Video"
+              - option "Shoes & Handbags"
+              - option "Software"
+              - option "Sports, Fitness & Outdoors"
+              - option "Subscribe & Save"
+              - option "Tools & Home Improvement"
+              - option "Toys & Games"
+              - option "Under ₹500"
+              - option "Video Games"
+              - option "Watches"
+          - searchbox "Search Amazon.in" [ref=f9e90]
+          - generic "Go" [ref=f9e93] [cursor=pointer]:
+            - button "Go" [ref=f9e94]
+        - generic [ref=f9e96]:
+          - generic [ref=f9e97]:
+            - link "Choose a language for shopping in Amazon India. The current selection is English (EN)." [ref=f9e98] [cursor=pointer]:
+              - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=topnav_lang
+              - generic [ref=f9e101]:
+                - img "India" [ref=f9e102]
+                - generic [ref=f9e103]: EN
+            - button "Expand to Change Language or Country" [ref=f9e104] [cursor=pointer]
+          - generic [ref=f9e105]:
+            - link "Hello, sign in Account & Lists" [ref=f9e106] [cursor=pointer]:
+              - /url: https://www.amazon.in/ap/signin?openid.return_to=https%3A%2F%2Fwww.amazon.in%2F%3Fref_%3Dnav_ya_signin&openid.identity=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.assoc_handle=inflex&openid.mode=checkid_setup&openid.claimed_id=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0%2Fidentifier_select&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0
+              - generic [ref=f9e107]: Hello, sign in
+              - generic [ref=f9e109]: Account & Lists
+            - button "Expand Account and Lists" [ref=f9e110] [cursor=pointer]
+          - link "Returns & Orders" [ref=f9e111] [cursor=pointer]:
+            - /url: /gp/css/order-history?ref_=nav_orders_first
+            - generic [ref=f9e112]: Returns
+            - generic [ref=f9e113]: "& Orders"
+          - link "0 items in cart" [ref=f9e114] [cursor=pointer]:
+            - /url: /gp/cart/view.html?ref_=nav_cart
+            - generic [aria-hidden] [ref=f9e116]: "0"
+      - generic [ref=f9e118]:
+        - button "Open All Categories Menu" [ref=f9e120] [cursor=pointer]:
+          - generic [ref=f9e122]: All
+        - list [ref=f9e126]:
+          - listitem [ref=f9e127]:
+            - link "Fresh" [ref=f9e129] [cursor=pointer]:
+              - /url: /fresh?ref_=nav_cs_fresh
+          - listitem [ref=f9e130]:
+            - link "Amazon Pay" [ref=f9e132] [cursor=pointer]:
+              - /url: /gp/sva/dashboard?ref_=nav_cs_apay
+          - listitem [ref=f9e133]:
+            - link "Mobiles" [ref=f9e135] [cursor=pointer]:
+              - /url: /mobile-phones/b/?ie=UTF8&node=1389401031&ref_=nav_cs_mobiles
+          - listitem [ref=f9e136]:
+            - link "Today's Deals" [ref=f9e138] [cursor=pointer]:
+              - /url: /deals?ref_=nav_cs_gb
+          - listitem [ref=f9e139]:
+            - link "Coupons" [ref=f9e141] [cursor=pointer]:
+              - /url: /coupons?ref_=nav_cs_coupons
+          - listitem [ref=f9e142]:
+            - link "Flights" [ref=f9e144] [cursor=pointer]:
+              - /url: /flights?ref_=nav_cs_apay_desktop_topnav_flights
+          - listitem [ref=f9e145]:
+            - link "Electronics" [ref=f9e147] [cursor=pointer]:
+              - /url: /electronics/b/?ie=UTF8&node=976419031&ref_=nav_cs_electronics
+          - listitem [ref=f9e148]:
+            - link "Video Games" [ref=f9e150] [cursor=pointer]:
+              - /url: /video-games/b/?ie=UTF8&node=976460031&ref_=nav_cs_video_games
+          - listitem [ref=f9e151]:
+            - link "Computers" [ref=f9e153] [cursor=pointer]:
+              - /url: /computers-and-accessories/b/?ie=UTF8&node=976392031&ref_=nav_cs_pc
+          - listitem [ref=f9e154]:
+            - link "New Releases" [ref=f9e156] [cursor=pointer]:
+              - /url: /gp/new-releases/?ref_=nav_cs_newreleases
+          - listitem [ref=f9e157]:
+            - link "Bestsellers" [ref=f9e159] [cursor=pointer]:
+              - /url: /gp/bestsellers/?ref_=nav_cs_bestsellers
+          - listitem [ref=f9e160]:
+            - link "Baby" [ref=f9e162] [cursor=pointer]:
+              - /url: /Baby/b/?ie=UTF8&node=1571274031&ref_=nav_cs_baby
+          - listitem [ref=f9e163]:
+            - link "Fashion" [ref=f9e165] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6648217031&ref_=nav_cs_fashion
+          - listitem [ref=f9e166]:
+            - link "Home & Kitchen" [ref=f9e168] [cursor=pointer]:
+              - /url: /Home-Kitchen/b/?ie=UTF8&node=976442031&ref_=nav_cs_home
+          - listitem [ref=f9e169]:
+            - link "Grocery & Gourmet Foods" [ref=f9e171] [cursor=pointer]:
+              - /url: /Gourmet-Specialty-Foods/b/?ie=UTF8&node=2454178031&ref_=nav_cs_grocery
+          - listitem [ref=f9e172]:
+            - link "Books" [ref=f9e174] [cursor=pointer]:
+              - /url: /Books/b/?ie=UTF8&node=976389031&ref_=nav_cs_books
+          - listitem [ref=f9e175]:
+            - link "Kindle eBooks" [ref=f9e177] [cursor=pointer]:
+              - /url: /Kindle-eBooks/b/?ie=UTF8&node=1634753031&ref_=nav_cs_kindle_books
+          - listitem [ref=f9e178]:
+            - link "Sports, Fitness & Outdoors" [ref=f9e180] [cursor=pointer]:
+              - /url: /Sports/b/?ie=UTF8&node=1984443031&ref_=nav_cs_sports
+          - listitem [ref=f9e181]:
+            - link "Toys & Games" [ref=f9e183] [cursor=pointer]:
+              - /url: /Toys-Games/b/?ie=UTF8&node=1350380031&ref_=nav_cs_toys
+          - listitem [ref=f9e184]:
+            - link "Car & Motorbike" [ref=f9e186] [cursor=pointer]:
+              - /url: /Car-Motorbike-Store/b/?ie=UTF8&node=4772060031&ref_=nav_cs_automotive
+          - listitem [ref=f9e187]:
+            - link "Beauty & Personal Care" [ref=f9e189] [cursor=pointer]:
+              - /url: /beauty/b/?ie=UTF8&node=1355016031&ref_=nav_cs_beauty
+          - listitem [ref=f9e190]:
+            - link "Customer Service" [ref=f9e192] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=nav_cs_help
+          - listitem [ref=f9e193]:
+            - link "Pet Supplies" [ref=f9e195] [cursor=pointer]:
+              - /url: /Pet-Supplies/b/?ie=UTF8&node=2454181031&ref_=nav_cs_pets
+          - listitem [ref=f9e196]:
+            - link "Custom Products" [ref=f9e198] [cursor=pointer]:
+              - /url: /Amazon-Custom/b/?ie=UTF8&node=32615889031&ref_=nav_cs_custom
+          - listitem [ref=f9e199]:
+            - link "Gift Cards" [ref=f9e201] [cursor=pointer]:
+              - /url: /gift-card-store/b/?ie=UTF8&node=3704982031&ref_=nav_cs_gc
+          - listitem [ref=f9e202]:
+            - generic [ref=f9e203]:
+              - link "Prime" [ref=f9e204] [cursor=pointer]:
+                - /url: /prime?ref_=nav_cs_primelink_nonmember
+              - button "Prime Details" [ref=f9e205] [cursor=pointer]
+          - listitem [ref=f9e206]:
+            - link "Home Improvement" [ref=f9e208] [cursor=pointer]:
+              - /url: /Home-Improvement/b/?ie=UTF8&node=4286640031&ref_=nav_cs_hi
+          - listitem [ref=f9e209]:
+            - link "AmazonBasics" [ref=f9e211] [cursor=pointer]:
+              - /url: /b/?node=6637738031&ref_=nav_cs_amazonbasics
+          - listitem [ref=f9e212]:
+            - link "Audible" [ref=f9e214] [cursor=pointer]:
+              - /url: /Audible-Books-and-Originals/b/?ie=UTF8&node=17941593031&ref_=nav_cs_audible
+          - listitem [ref=f9e215]:
+            - link "Health, Household & Personal Care" [ref=f9e217] [cursor=pointer]:
+              - /url: /health-and-personal-care/b/?ie=UTF8&node=1350384031&ref_=nav_cs_hpc
+          - listitem [ref=f9e218]:
+            - link "Subscribe & Save" [ref=f9e220] [cursor=pointer]:
+              - /url: /auto-deliveries/landing?ref_=nav_cs_sns
+          - listitem [ref=f9e221]:
+            - link "Gift Ideas" [ref=f9e223] [cursor=pointer]:
+              - /url: /gcx/-/gfhz/?ref_=nav_cs_giftfinder
+          - listitem [ref=f9e224]:
+            - link "Sell" [ref=f9e226] [cursor=pointer]:
+              - /url: /b/32702023031?node=32702023031&ld=AZINSOANavDesktop_T3&ref_=nav_cs_sell_T3
+          - listitem [ref=f9e227]:
+            - link "Amazon Pharmacy" [ref=f9e229] [cursor=pointer]:
+              - /url: /medical/browse/home?ref_=nav_navx-desco-pharma
+          - listitem [ref=f9e230]:
+            - link "Prime Video" [ref=f9e232] [cursor=pointer]:
+              - /url: https://www.primevideo.com/offers/nonprimehomepage/ref_=nav_dvm_crs_in_s_gw_bt_dk_p_hamburgr?ref_=avod_desktop_topnav
+        - link "Jan26_Event" [ref=f9e236] [cursor=pointer]:
+          - /url: /events/greatindianfestival/?_encoding=UTF8&ref_=nav_swm_event&pf_rd_p=14bd0085-25cc-40f1-89c1-e31ccdddb5cf&pf_rd_s=nav-sitewide-msg&pf_rd_t=4201&pf_rd_i=navbar-4201&pf_rd_m=A21TJRUUN4KGV&pf_rd_r=GSFDV83CB2HWDP69P0K5
+          - img "Jan26_Event" [ref=f9e237]
+  - main [ref=f9e239]:
+    - generic [ref=f9e242]:
+      - list [ref=f9e244]:
+        - listitem [ref=f9e245]:
+          - generic [ref=f9e249]:
+            - link "Under ₹499 Bestselling watches Kurta Men jeans *T&C apply" [ref=f9e250] [cursor=pointer]:
+              - /url: https://www.amazon.in/s/?_encoding=UTF8&i=fashion&srs=27915138031&rh=n%3A27915138031&s=popularity-rank&fs=true&qid=1785948187&rnid=1318502031&ref=sr_nr_p_36_0_0&low-price=&high-price=&pd_rd_w=Hk1I6&content-id=amzn1.sym.a96436f0-fc75-4312-8e16-46c24a8f0220&pf_rd_p=a96436f0-fc75-4312-8e16-46c24a8f0220&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=jmfVl&pd_rd_r=7a589550-6ee6-4107-b0c5-ebf36bd886bb&ref_=pd_hp_d_r_atf_unk
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Under ₹499" [level=3]
+                    - generic: Bestselling watches
+                  - generic:
+                    - generic:
+                      - img "Kurta"
+              - img "Men jeans" [ref=f9e252]
+              - generic [ref=f9e253]: "*T&C apply"
+            - generic:
+              - generic [aria-hidden]: "*T&C apply"
+        - listitem [ref=f9e254]:
+          - generic [ref=f9e258]:
+            - link "Up to 80% off New launches Mobile accessories Launch Mobile accessories *T&C apply" [ref=f9e259] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&i=electronics&srs=18383188031&rh=n%3A18383188031&s=popularity-rank&fs=true&qid=1788416763&xpid=LuKfgLffsMUle&ref=sr_pg_1&pd_rd_w=lQ53p&content-id=amzn1.sym.86c017b0-9253-4446-b35e-413b3cb92db6&pf_rd_p=86c017b0-9253-4446-b35e-413b3cb92db6&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=jmfVl&pd_rd_r=7a589550-6ee6-4107-b0c5-ebf36bd886bb&ref_=pd_hp_d_r_atf_unk
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Up to 80% off" [level=3]
+                    - generic: New launches Mobile accessories
+                  - generic:
+                    - generic:
+                      - img "Launch"
+              - img "Mobile accessories" [ref=f9e261]
+              - generic [ref=f9e262]: "*T&C apply"
+            - generic:
+              - generic [aria-hidden]: "*T&C apply"
+        - listitem [ref=f9e263]:
+          - generic [ref=f9e267]:
+            - link "Under ₹399 Bras, briefs & more Souled store Bewakoof Women *T&C apply" [ref=f9e268] [cursor=pointer]:
+              - /url: https://www.amazon.in/s/?_encoding=UTF8&i=apparel&bbn=1968457031&rh=n%3A1571271031%2Cn%3A1953602031%2Cn%3A1968457031%2Cp_85%3A10440599031%2Cp_28%3AAmante%257CBodycare%257CClovia%257CEnamor%257CJockey%257CMahina%257CMarks%252B%2526Spencer%257CNykd%257CPinq%252BPolka%257CPlumbury%257CRupa%257CSoie%257CTriumph%257CTriumph%252BInternational%257CWacoal%257CZivame%2Cp_36%3A-40000&s=exact-aware-popularity-rank&dc=&hidden-keywords=-sponsored&qid=1788722839&ref=sr_st_exact-aware-popularity-rank&ds=v1%3ATrwwbP2vuiJcL3%2BO%2BcXsH38ic%2BQP2BdbzrRoMZNFIBQ&pd_rd_w=3iGSS&content-id=amzn1.sym.1b2a4b65-2e62-4f3a-a61c-333716f34f60&pf_rd_p=1b2a4b65-2e62-4f3a-a61c-333716f34f60&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=jmfVl&pd_rd_r=7a589550-6ee6-4107-b0c5-ebf36bd886bb&ref_=pd_hp_d_r_atf_unk
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Under ₹399" [level=3]
+                    - generic: Bras, briefs & more
+                  - generic:
+                    - generic:
+                      - img "Souled store Bewakoof"
+              - img "Women" [ref=f9e270]
+              - generic [ref=f9e271]: "*T&C apply"
+            - generic:
+              - generic [aria-hidden]: "*T&C apply"
+        - listitem [ref=f9e272]:
+          - generic [ref=f9e276]:
+            - generic:
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Starting ₹99" [level=3]
+                    - generic: Interesting kitchen finds for you
+                  - generic:
+                    - generic:
+                      - img "Phillips | Agaro"
+            - generic [ref=f9e279]:
+              - link "ALtext-Test" [ref=f9e280] [cursor=pointer]:
+                - /url: /b/?_encoding=UTF8&_encoding=UTF8&node=205224204031&ref_=AugARTWDIFUnSettled&pd_rd_w=aBsjT&content-id=amzn1.sym.9e9afffb-d864-4a52-9a8f-714b6aa02726&pf_rd_p=9e9afffb-d864-4a52-9a8f-714b6aa02726&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=jmfVl&pd_rd_r=7a589550-6ee6-4107-b0c5-ebf36bd886bb
+                - img "ALtext-Test" [ref=f9e281]
+              - region "Video Player" [ref=f9e283]:
+                - application [ref=f9e284]
+                - generic [ref=f9e285] [cursor=pointer]
+                - button "Play" [ref=f9e287] [cursor=pointer]:
+                  - generic [aria-hidden] [ref=f9e288]: 
+                - text: 
+        - listitem [ref=f9e290]:
+          - generic [ref=f9e294]:
+            - link "Under ₹499 Sports shoes Souled store Bewakoof Jeans *T&C apply" [ref=f9e295] [cursor=pointer]:
+              - /url: https://www.amazon.in/s/?_encoding=UTF8&i=shoes&rh=n%3A1983519031%2Cp_36%3A-50000&s=shoes&dc=&hidden-keywords=-jersey-shorts-clothing-bag-accessories-protector-socks-kids-slipper-flip-flop-sandal-formal-clog-thong-slipper-generic-slippers-B07DS7N2LL-chappal-socks-mojaris&qid=1788727799&rnid=4516629031&ref=sr_nr_p_36_0_0&pd_rd_w=vAKFF&content-id=amzn1.sym.5bee1eb6-03b2-4634-8172-0db45ea191c2&pf_rd_p=5bee1eb6-03b2-4634-8172-0db45ea191c2&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=jmfVl&pd_rd_r=7a589550-6ee6-4107-b0c5-ebf36bd886bb&ref_=pd_hp_d_r_atf_unk
+              - generic:
+                - generic:
+                  - generic:
+                    - heading "Under ₹499" [level=3]
+                    - generic: Sports shoes
+                  - generic:
+                    - generic:
+                      - img "Souled store Bewakoof"
+              - img "Jeans" [ref=f9e297]
+              - generic [ref=f9e298]: "*T&C apply"
+            - generic:
+              - generic [aria-hidden]: "*T&C apply"
+        - listitem "Loading more" [ref=f9e299]
+      - link "Carousel next slide" [ref=f9e305] [cursor=pointer]:
+        - /url: "#"
+    - generic [ref=f9e306]:
+      - generic [ref=f9e308]:
+        - link "Up to 70% off | Storage devices & SSDs - See all" [ref=f9e310] [cursor=pointer]:
+          - /url: /b/ref=Shop_PBT/?_encoding=UTF8&node=1375393031&pd_rd_w=l15KF&content-id=amzn1.sym.b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_p=b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+          - heading "Up to 70% off | Storage devices & SSDs" [level=3] [ref=f9e312]:
+            - generic [ref=f9e313]:
+              - generic [ref=f9e314]: Up to 70% off | Storage devices & SSDs
+              - generic [aria-hidden] [ref=f9e315]: Up to 70% off | Storage devices & SSDs
+        - list [ref=f9e319]:
+          - listitem [ref=f9e320]:
+            - link "External HDD" [ref=f9e321] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=95145204031&pd_rd_w=l15KF&content-id=amzn1.sym.b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_p=b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "HDD" [ref=f9e322]
+              - generic [ref=f9e325]:
+                - generic [ref=f9e326]: External HDD
+                - generic [aria-hidden] [ref=f9e327]: External HDD
+          - listitem [ref=f9e328]:
+            - link "External SSD" [ref=f9e329] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=95145202031&pd_rd_w=l15KF&content-id=amzn1.sym.b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_p=b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "SSD" [ref=f9e330]
+              - generic [ref=f9e333]:
+                - generic [ref=f9e334]: External SSD
+                - generic [aria-hidden] [ref=f9e335]: External SSD
+          - listitem [ref=f9e336]:
+            - link "Memory Card" [ref=f9e337] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=95145201031&pd_rd_w=l15KF&content-id=amzn1.sym.b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_p=b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Inkjet" [ref=f9e338]
+              - generic [ref=f9e341]:
+                - generic [ref=f9e342]: Memory Card
+                - generic [aria-hidden] [ref=f9e343]: Memory Card
+          - listitem [ref=f9e344]:
+            - link "Pen Drive" [ref=f9e345] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=95145205031&pd_rd_w=l15KF&content-id=amzn1.sym.b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_p=b4e79afe-7513-42c1-8583-8a21c831b149&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Inks" [ref=f9e346]
+              - generic [ref=f9e349]:
+                - generic [ref=f9e350]: Pen Drive
+                - generic [aria-hidden] [ref=f9e351]: Pen Drive
+      - generic [ref=f9e353]:
+        - link "Up to 80% off on Home improvements + 10% Assured cashback - Create a free account" [ref=f9e355] [cursor=pointer]:
+          - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=MGp0U&content-id=amzn1.sym.7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_p=7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+          - heading "Up to 80% off on Home improvements + 10% Assured cashback" [level=3] [ref=f9e357]:
+            - generic [ref=f9e358]:
+              - generic [ref=f9e359]: Up to 80% off on Home improvements + 10% Assured cashback
+              - generic [aria-hidden] [ref=f9e360]: Up to 80% off on Home improvements + 10% Assure…
+        - list [ref=f9e364]:
+          - listitem [ref=f9e365]:
+            - link "Electrical & accessories | Up to 80% off" [ref=f9e366] [cursor=pointer]:
+              - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=MGp0U&content-id=amzn1.sym.7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_p=7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Amazon business" [ref=f9e367]
+              - generic [ref=f9e370]:
+                - generic [ref=f9e371]: Electrical & accessories | Up to 80% off
+                - generic [aria-hidden] [ref=f9e372]: Electrical & accessor…
+          - listitem [ref=f9e373]:
+            - link "Ladders | Up to 50% off" [ref=f9e374] [cursor=pointer]:
+              - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=MGp0U&content-id=amzn1.sym.7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_p=7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Amazon business" [ref=f9e375]
+              - generic [ref=f9e378]:
+                - generic [ref=f9e379]: Ladders | Up to 50% off
+                - generic [aria-hidden] [ref=f9e380]: Ladders | Up to 50…
+          - listitem [ref=f9e381]:
+            - link "Security cameras | Up to 40% off" [ref=f9e382] [cursor=pointer]:
+              - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=MGp0U&content-id=amzn1.sym.7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_p=7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "amazon business" [ref=f9e383]
+              - generic [ref=f9e386]:
+                - generic [ref=f9e387]: Security cameras | Up to 40% off
+                - generic [aria-hidden] [ref=f9e388]: Security cameras |…
+          - listitem [ref=f9e389]:
+            - link "For business purchases" [ref=f9e390] [cursor=pointer]:
+              - /url: /b/ref=vpr_b2c_qc_reg/?_encoding=UTF8&ie=UTF8&node=80662860031&pd_rd_w=MGp0U&content-id=amzn1.sym.7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_p=7353cc38-c3e2-4915-8dc8-c6b0f74fd155&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Amazon business" [ref=f9e391]
+              - generic [ref=f9e394]:
+                - generic [ref=f9e395]: For business purchases
+                - generic [aria-hidden] [ref=f9e396]: For business purcha…
+      - generic [ref=f9e398]:
+        - link "Up to 60% off | Bestselling stationery supplies & more - See all" [ref=f9e400] [cursor=pointer]:
+          - /url: /b/ref=op_bau/?_encoding=UTF8&node=2454172031&pd_rd_w=TgrgS&content-id=amzn1.sym.210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_p=210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+          - heading "Up to 60% off | Bestselling stationery supplies & more" [level=3] [ref=f9e402]:
+            - generic [ref=f9e403]:
+              - generic [ref=f9e404]: Up to 60% off | Bestselling stationery supplies & more
+              - generic [aria-hidden] [ref=f9e405]: Up to 60% off | Bestselling stationery supplies & more
+        - list [ref=f9e409]:
+          - listitem [ref=f9e410]:
+            - link "Pens & pencils" [ref=f9e411] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=81442881031&pd_rd_w=TgrgS&content-id=amzn1.sym.210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_p=210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Pens" [ref=f9e412]
+              - generic [ref=f9e415]:
+                - generic [ref=f9e416]: Pens & pencils
+                - generic [aria-hidden] [ref=f9e417]: Pens & pencils
+          - listitem [ref=f9e418]:
+            - link "Notebooks & diaries" [ref=f9e419] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=2454172031&pd_rd_w=TgrgS&content-id=amzn1.sym.210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_p=210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Notebooks" [ref=f9e420]
+              - generic [ref=f9e423]:
+                - generic [ref=f9e424]: Notebooks & diaries
+                - generic [aria-hidden] [ref=f9e425]: Notebooks & diaries
+          - listitem [ref=f9e426]:
+            - link "Art & crafts" [ref=f9e427] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=82147356031&pd_rd_w=TgrgS&content-id=amzn1.sym.210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_p=210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Art Supplies" [ref=f9e428]
+              - generic [ref=f9e431]:
+                - generic [ref=f9e432]: Art & crafts
+                - generic [aria-hidden] [ref=f9e433]: Art & crafts
+          - listitem [ref=f9e434]:
+            - link "Gifting items" [ref=f9e435] [cursor=pointer]:
+              - /url: /b/?_encoding=UTF8&node=82147360031&pd_rd_w=TgrgS&content-id=amzn1.sym.210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_p=210854b4-216b-41f2-8ab3-df4e468906f2&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "calculators" [ref=f9e436]
+              - generic [ref=f9e439]:
+                - generic [ref=f9e440]: Gifting items
+                - generic [aria-hidden] [ref=f9e441]: Gifting items
+      - generic [ref=f9e443]:
+        - link "Lowest prices on Amazon + Extra 15% cashback - See all deals" [ref=f9e445] [cursor=pointer]:
+          - /url: /amazon-bazaar/store/?_encoding=UTF8&pd_rd_w=TT5Ta&content-id=amzn1.sym.0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_p=0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+          - heading "Lowest prices on Amazon + Extra 15% cashback" [level=3] [ref=f9e447]:
+            - generic [ref=f9e448]:
+              - generic [ref=f9e449]: Lowest prices on Amazon + Extra 15% cashback
+              - generic [aria-hidden] [ref=f9e450]: Lowest prices on Amazon + Extra 15% cashback
+        - list [ref=f9e454]:
+          - listitem [ref=f9e455]:
+            - link "Kurtis" [ref=f9e456] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=Kurtis&i=bazaar&pd_rd_w=TT5Ta&content-id=amzn1.sym.0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_p=0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Kurtis" [ref=f9e457]
+              - generic [ref=f9e460]:
+                - generic [ref=f9e461]: Kurtis
+                - generic [aria-hidden] [ref=f9e462]: Kurtis
+          - listitem [ref=f9e463]:
+            - link "Sarees" [ref=f9e464] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=Women%20saree&i=bazaar&bbn=28166270031&rh=n%3A28166270031&crid=1BZM7UQ90BOS0&qid=1768234416&rnid=4595083031&sprefix=women%20s%2Cbazaar%2C640&ref=is_r_p_36_0_0&low-price=&high-price=350&pd_rd_w=TT5Ta&content-id=amzn1.sym.0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_p=0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "tops" [ref=f9e465]
+              - generic [ref=f9e468]:
+                - generic [ref=f9e469]: Sarees
+                - generic [aria-hidden] [ref=f9e470]: Sarees
+          - listitem [ref=f9e471]:
+            - link "Beauty accessories" [ref=f9e472] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=beauty%20%7C%20makeup%20%7C%20haircare&i=bazaar&bbn=28166270031&rh=n%3A28166270031&crid=3BVVK3B38R7LZ&qid=1768889403&rnid=1741387031&sprefix=beauty%20makeup%20haircare%2Cbazaar%2C352&ref=is_r_p_36_0_0&low-price=&high-price=350&pd_rd_w=TT5Ta&content-id=amzn1.sym.0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_p=0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Bottom" [ref=f9e473]
+              - generic [ref=f9e476]:
+                - generic [ref=f9e477]: Beauty accessories
+                - generic [aria-hidden] [ref=f9e478]: Beauty accessories
+          - listitem [ref=f9e479]:
+            - link "Shop all Bazaar" [ref=f9e480] [cursor=pointer]:
+              - /url: /amazon-bazaar/store/?_encoding=UTF8&pd_rd_w=TT5Ta&content-id=amzn1.sym.0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_p=0f1dcc93-7da2-4ebc-9ce9-babdee954df5&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "ALL" [ref=f9e481]
+              - generic [ref=f9e484]:
+                - generic [ref=f9e485]: Shop all Bazaar
+                - generic [aria-hidden] [ref=f9e486]: Shop all Bazaar
+      - generic [ref=f9e488]:
+        - link "Up to 60% off | Back to school essentials - Explore more toys" [ref=f9e490] [cursor=pointer]:
+          - /url: /b/?_encoding=UTF8&node=1350380031&pd_rd_w=psRA2&content-id=amzn1.sym.e8467315-717c-433d-9287-efd804e840a8&pf_rd_p=e8467315-717c-433d-9287-efd804e840a8&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+          - heading "Up to 60% off | Back to school essentials" [level=3] [ref=f9e492]:
+            - generic [ref=f9e493]:
+              - generic [ref=f9e494]: Up to 60% off | Back to school essentials
+              - generic [aria-hidden] [ref=f9e495]: Up to 60% off | Back to school essentials
+        - list [ref=f9e499]:
+          - listitem [ref=f9e500]:
+            - link "Drawing & painting supplies" [ref=f9e501] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&rh=n%3A1350380031%2Cn%3A1378490031%2Cn%3A1378154031&dc=&qid=1774433004&rnid=1378490031&ref=sr_nr_n_3&pd_rd_w=psRA2&content-id=amzn1.sym.e8467315-717c-433d-9287-efd804e840a8&pf_rd_p=e8467315-717c-433d-9287-efd804e840a8&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Drawing & painting supplies" [ref=f9e502]
+              - generic [ref=f9e505]:
+                - generic [ref=f9e506]: Drawing & painting supplies
+                - generic [aria-hidden] [ref=f9e507]: Drawing & painting…
+          - listitem [ref=f9e508]:
+            - link "Rulers & set squares" [ref=f9e509] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&i=toys&rh=n%3A1350380031%2Cn%3A1378490031%2Cn%3A1378505031&s=popularity-rank&dc=&fs=true&ds=v1%3A9gs%2Bv6x5vD1KlavdCTREOx8RLpWg664Txy%2BZChx2Sdo&qid=1774433134&rnid=1378490031&ref=sr_nr_n_12&pd_rd_w=psRA2&content-id=amzn1.sym.e8467315-717c-433d-9287-efd804e840a8&pf_rd_p=e8467315-717c-433d-9287-efd804e840a8&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Rulers & set squares" [ref=f9e510]
+              - generic [ref=f9e513]:
+                - generic [ref=f9e514]: Rulers & set squares
+                - generic [aria-hidden] [ref=f9e515]: Rulers & set squares
+          - listitem [ref=f9e516]:
+            - link "Pencil cases" [ref=f9e517] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&i=toys&rh=n%3A1350380031%2Cn%3A1378490031%2Cn%3A1378502031&s=popularity-rank&dc=&fs=true&ds=v1%3AqsAUzwJqluQpS%2F2GzVU1fgriVQCFP67oqxRitV4C21w&qid=1774433085&rnid=1378490031&ref=sr_nr_n_10&pd_rd_w=psRA2&content-id=amzn1.sym.e8467315-717c-433d-9287-efd804e840a8&pf_rd_p=e8467315-717c-433d-9287-efd804e840a8&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Pencil cases" [ref=f9e518]
+              - generic [ref=f9e521]:
+                - generic [ref=f9e522]: Pencil cases
+                - generic [aria-hidden] [ref=f9e523]: Pencil cases
+          - listitem [ref=f9e524]:
+            - link "Lunch boxes" [ref=f9e525] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&i=toys&rh=n%3A51396146031%2Cp_72%3A1318476031&s=popularity-rank&dc=&fs=true&qid=1775106859&rnid=1318475031&ref=sr_nr_p_72_1&ds=v1%3AeyOLyc2oFcAkB3V5LErXzI1gPPt%2B6Ln5kq8yHbHNV20&pd_rd_w=psRA2&content-id=amzn1.sym.e8467315-717c-433d-9287-efd804e840a8&pf_rd_p=e8467315-717c-433d-9287-efd804e840a8&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Lunch boxes" [ref=f9e526]
+              - generic [ref=f9e529]:
+                - generic [ref=f9e530]: Lunch boxes
+                - generic [aria-hidden] [ref=f9e531]: Lunch boxes
+      - generic [ref=f9e533]:
+        - link "Under ₹499 | Best of home products - See all" [ref=f9e535] [cursor=pointer]:
+          - /url: /home-products-sale/b/?_encoding=UTF8&ie=UTF8&node=12414705031&pd_rd_w=J4aH5&content-id=amzn1.sym.c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_p=c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+          - heading "Under ₹499 | Best of home products" [level=3] [ref=f9e537]:
+            - generic [ref=f9e538]:
+              - generic [ref=f9e539]: Under ₹499 | Best of home products
+              - generic [aria-hidden] [ref=f9e540]: Under ₹499 | Best of home products
+        - list [ref=f9e544]:
+          - listitem [ref=f9e545]:
+            - link "Wall clocks" [ref=f9e546] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=Wall%20clocks&i=kitchen&rh=n%3A976442031%2Cp_36%3A3444810031&pd_rd_w=J4aH5&content-id=amzn1.sym.c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_p=c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Wall clocks" [ref=f9e547]
+              - generic [ref=f9e550]:
+                - generic [ref=f9e551]: Wall clocks
+                - generic [aria-hidden] [ref=f9e552]: Wall clocks
+          - listitem [ref=f9e553]:
+            - link "Pillows" [ref=f9e554] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=pillows&i=kitchen&rh=n%3A976442031%2Cp_36%3A3444810031&pd_rd_w=J4aH5&content-id=amzn1.sym.c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_p=c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Pillows" [ref=f9e555]
+              - generic [ref=f9e558]:
+                - generic [ref=f9e559]: Pillows
+                - generic [aria-hidden] [ref=f9e560]: Pillows
+          - listitem [ref=f9e561]:
+            - link "Floor mats" [ref=f9e562] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=floor%20mats&i=kitchen&rh=n%3A976442031%2Cp_36%3A3444810031&pd_rd_w=J4aH5&content-id=amzn1.sym.c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_p=c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Floor mats" [ref=f9e563]
+              - generic [ref=f9e566]:
+                - generic [ref=f9e567]: Floor mats
+                - generic [aria-hidden] [ref=f9e568]: Floor mats
+          - listitem [ref=f9e569]:
+            - link "Candles" [ref=f9e570] [cursor=pointer]:
+              - /url: /s/?_encoding=UTF8&k=Candles&i=kitchen&rh=n%3A976442031%2Cp_36%3A3444810031&pd_rd_w=J4aH5&content-id=amzn1.sym.c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_p=c8791e26-e796-4b47-b2f6-c6757f45ef92&pf_rd_r=GSFDV83CB2HWDP69P0K5&pd_rd_wg=2tiam&pd_rd_r=ca53c3ce-cc3e-4210-a22f-4da4e3a74b91&ref_=pd_hp_d_r_btf_unk
+              - img "Candles" [ref=f9e571]
+              - generic [ref=f9e574]:
+                - generic [ref=f9e575]: Candles
+                - generic [aria-hidden] [ref=f9e576]: Candles
+  - complementary "Your recently viewed items and featured recommendations" [ref=f9e577]:
+    - generic [ref=f9e585]:
+      - heading "See personalized recommendations" [level=2] [ref=f9e586]
+      - link "Sign in" [ref=f9e589] [cursor=pointer]:
+        - /url: https://www.amazon.in/ap/signin?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fref%3Drhf_sign_in&openid.assoc_handle=inflex&openid.pape.max_auth_age=0
+      - generic [ref=f9e590]:
+        - text: New customer?
+        - link "Start here." [ref=f9e591] [cursor=pointer]:
+          - /url: https://www.amazon.in/ap/register?openid.mode=checkid_setup&openid.ns=http%3A%2F%2Fspecs.openid.net%2Fauth%2F2.0&openid.return_to=https%3A%2F%2Fwww.amazon.in%2Fref%3Drhf_sign_in&openid.assoc_handle=inflex
+  - generic [ref=f9e592]:
+    - button "Back to top" [ref=f9e593] [cursor=pointer]
+    - generic [ref=f9e595]:
+      - generic [ref=f9e596]:
+        - heading "Get to Know Us" [level=6] [ref=f9e597]
+        - list [ref=f9e598]:
+          - listitem [ref=f9e599]:
+            - link "About Amazon" [ref=f9e600] [cursor=pointer]:
+              - /url: https://www.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f9e601]:
+            - link "Careers" [ref=f9e602] [cursor=pointer]:
+              - /url: https://amazon.jobs
+          - listitem [ref=f9e603]:
+            - link "Press Releases" [ref=f9e604] [cursor=pointer]:
+              - /url: https://press.aboutamazon.in/?utm_source=gateway&utm_medium=footer
+          - listitem [ref=f9e605]:
+            - link "Amazon Science" [ref=f9e606] [cursor=pointer]:
+              - /url: https://www.amazon.science
+      - generic [ref=f9e608]:
+        - heading "Connect with Us" [level=6] [ref=f9e609]
+        - list [ref=f9e610]:
+          - listitem [ref=f9e611]:
+            - link "Facebook" [ref=f9e612] [cursor=pointer]:
+              - /url: https://www.facebook.com/AmazonIN
+          - listitem [ref=f9e613]:
+            - link "Twitter" [ref=f9e614] [cursor=pointer]:
+              - /url: https://x.com/AmazonIN
+          - listitem [ref=f9e615]:
+            - link "Instagram" [ref=f9e616] [cursor=pointer]:
+              - /url: https://www.instagram.com/amazondotin
+      - generic [ref=f9e618]:
+        - heading "Make Money with Us" [level=6] [ref=f9e619]
+        - list [ref=f9e620]:
+          - listitem [ref=f9e621]:
+            - link "Sell on Amazon" [ref=f9e622] [cursor=pointer]:
+              - /url: /b/?node=2838698031&ld=AZINSOANavDesktopFooter_C&ref_=nav_footer_sell_C
+          - listitem [ref=f9e623]:
+            - link "Sell under Amazon Accelerator" [ref=f9e624] [cursor=pointer]:
+              - /url: https://accelerator.amazon.in/?ref_=map_1_b2b_GW_FT
+          - listitem [ref=f9e625]:
+            - link "Protect and Build Your Brand" [ref=f9e626] [cursor=pointer]:
+              - /url: https://brandservices.amazon.in/?ref=AOINABRLGNRFOOT&ld=AOINABRLGNRFOOT
+          - listitem [ref=f9e627]:
+            - link "Amazon Global Selling" [ref=f9e628] [cursor=pointer]:
+              - /url: https://sell.amazon.in/grow-your-business/amazon-global-selling.html?ld=AZIN_Footer_V1&ref=AZIN_Footer_V1
+          - listitem [ref=f9e629]:
+            - link "Supply to Amazon" [ref=f9e630] [cursor=pointer]:
+              - /url: https://supply.amazon.com/?ref_=footer_sta&lang=en-IN
+          - listitem [ref=f9e631]:
+            - link "Become an Affiliate" [ref=f9e632] [cursor=pointer]:
+              - /url: https://affiliate-program.amazon.in/?utm_campaign=assocshowcase&utm_medium=footer&utm_source=GW&ref_=footer_assoc
+          - listitem [ref=f9e633]:
+            - link "Fulfilment by Amazon" [ref=f9e634] [cursor=pointer]:
+              - /url: https://services.amazon.in/services/fulfilment-by-amazon/benefits.html/ref=az_footer_fba?ld=AWRGINFBAfooter
+          - listitem [ref=f9e635]:
+            - link "Advertise Your Products" [ref=f9e636] [cursor=pointer]:
+              - /url: https://advertising.amazon.in/?ref=Amz.in
+          - listitem [ref=f9e637]:
+            - link "Amazon Pay on Merchants" [ref=f9e638] [cursor=pointer]:
+              - /url: https://www.amazonpay.in/merchant
+      - generic [ref=f9e640]:
+        - heading "Let Us Help You" [level=6] [ref=f9e641]
+        - list [ref=f9e642]:
+          - listitem [ref=f9e643]:
+            - link "Your Account" [ref=f9e644] [cursor=pointer]:
+              - /url: /gp/css/homepage.html?ref_=footer_ya
+          - listitem [ref=f9e645]:
+            - link "Returns Centre" [ref=f9e646] [cursor=pointer]:
+              - /url: /gp/css/returns/homepage.html?ref_=footer_hy_f_4
+          - listitem [ref=f9e647]:
+            - link "Recalls and Product Safety Alerts" [ref=f9e648] [cursor=pointer]:
+              - /url: https://www.amazon.in/your-product-safety-alerts?ref_=footer_bsx_ypsa
+          - listitem [ref=f9e649]:
+            - link "100% Purchase Protection" [ref=f9e650] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=201083470&ref_=footer_swc
+          - listitem [ref=f9e651]:
+            - link "Amazon App Download" [ref=f9e652] [cursor=pointer]:
+              - /url: /gp/browse.html?node=6967393031&ref_=footer_mobapp
+          - listitem [ref=f9e653]:
+            - link "Help" [ref=f9e654] [cursor=pointer]:
+              - /url: /gp/help/customer/display.html?nodeId=200507590&ref_=footer_gw_m_b_he
+    - generic [ref=f9e656]:
+      - link "Amazon India Home" [ref=f9e659] [cursor=pointer]:
+        - /url: /ref=footer_logo
+      - generic [ref=f9e662]:
+        - generic [ref=f9e663]:
+          - link "Choose a language for shopping. Current selection is English." [ref=f9e664] [cursor=pointer]:
+            - /url: /customer-preferences/edit?ie=UTF8&preferencesReturnUrl=%2F&ref_=footer_lang
+            - generic [ref=f9e666]: English
+          - button "Expand to Change Language or Country" [ref=f9e667] [cursor=pointer]
+        - button "Choose a country/region for shopping. The current selection is India." [ref=f9e668] [cursor=pointer]:
+          - generic [ref=f9e670]: India
+    - generic "More on Amazon" [ref=f9e671]:
+      - generic "More on Amazon" [ref=f9e672]:
+        - list [ref=f9e673]:
+          - listitem [ref=f9e674]:
+            - link [ref=f9e675] [cursor=pointer]:
+              - /url: https://www.abebooks.com/
+              - heading "AbeBooks" [level=5] [ref=f9e676]
+              - generic [ref=f9e677]: Books, art& collectibles
+          - listitem [aria-hidden] [ref=f9e678]
+          - listitem [ref=f9e679]:
+            - link [ref=f9e680] [cursor=pointer]:
+              - /url: https://aws.amazon.com/what-is-cloud-computing/?sc_channel=EL&sc_campaign=IN_amazonfooter
+              - heading "Amazon Web Services" [level=5] [ref=f9e681]
+              - generic [ref=f9e682]: Scalable CloudComputing Services
+          - listitem [aria-hidden] [ref=f9e683]
+          - listitem [ref=f9e684]:
+            - link [ref=f9e685] [cursor=pointer]:
+              - /url: https://www.audible.in/
+              - heading "Audible" [level=5] [ref=f9e686]
+              - generic [ref=f9e687]: DownloadAudio Books
+          - listitem [aria-hidden] [ref=f9e688]
+          - listitem [ref=f9e689]:
+            - link [ref=f9e690] [cursor=pointer]:
+              - /url: https://www.imdb.com/
+              - heading "IMDb" [level=5] [ref=f9e691]
+              - generic [ref=f9e692]: Movies, TV& Celebrities
+        - list [ref=f9e693]:
+          - listitem [ref=f9e694]:
+            - link [ref=f9e695] [cursor=pointer]:
+              - /url: https://www.shopbop.com/
+              - heading "Shopbop" [level=5] [ref=f9e696]
+              - generic [ref=f9e697]: DesignerFashion Brands
+          - listitem [aria-hidden] [ref=f9e698]
+          - listitem [ref=f9e699]:
+            - link [ref=f9e700] [cursor=pointer]:
+              - /url: /business?ref=footer_aingw
+              - heading "Amazon Business" [level=5] [ref=f9e701]
+              - generic [ref=f9e702]: Everything ForYour Business
+          - listitem [aria-hidden] [ref=f9e703]
+          - listitem [ref=f9e704]:
+            - link "Amazon Music Stream millions of songs" [ref=f9e705] [cursor=pointer]:
+              - /url: /music/player?ref=footer_apm
+              - heading "Amazon Music" [level=5] [ref=f9e706]
+              - generic [ref=f9e707]: Stream millions of songs
+          - listitem [aria-hidden] [ref=f9e708]
+          - listitem [aria-hidden] [ref=f9e709]
+    - generic [ref=f9e710]:
+      - list [ref=f9e711]:
+        - listitem [ref=f9e712]:
+          - link "Conditions of Use & Sale" [ref=f9e713] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200545940&ref_=footer_cou
+        - listitem [ref=f9e714]:
+          - link "Privacy Notice" [ref=f9e715] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=200534380&ref_=footer_privacy
+        - listitem [ref=f9e716]:
+          - link "Interest-Based Ads" [ref=f9e717] [cursor=pointer]:
+            - /url: /gp/help/customer/display.html?nodeId=202075050&ref_=footer_iba
+      - generic [ref=f9e718]: © 1996-2026, Amazon.com, Inc. or its affiliates
